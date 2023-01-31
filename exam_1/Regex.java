@@ -128,7 +128,7 @@ public class Regex {
         String url = scan.nextLine();
 
         // Provide regex pattern
-        pattern = Pattern.compile("(?=.*christian(-?||\\.?))(?=.*jeff(-?||\\.?))(?=.*gabion(-?||\\.?))).+\\.com");
+        pattern = Pattern.compile("(?=.*christian(-?||\\.?))(?=.*jeff(-?||\\.?))(?=.*gabion(-?||\\.?)).+\\.com");
 
         match = pattern.matcher(url);
 
